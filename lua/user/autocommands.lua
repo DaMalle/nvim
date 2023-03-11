@@ -44,3 +44,12 @@ vim.api.nvim_create_autocmd({ "TextYankPost" }, {
     vim.highlight.on_yank { higroup = "Visual", timeout = 200 }
   end,
 })
+
+-- Change indentation for certain file-types
+vim.api.nvim_create_autocmd({ "FileType" }, {
+    pattern = { "html", "javascript", "typescript", "javascriptreact", "typescriptreact" },
+    callback = function()
+        vim.opt_local.shiftwidth=2
+        vim.opt_local.tabstop=2
+    end
+})
