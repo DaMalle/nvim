@@ -62,6 +62,7 @@ return packer.startup(function(use)
   use { "lunarvim/darkplus.nvim", commit = "2584cdeefc078351a79073322eb7f14d7fbb1835" }
   use 'navarasu/onedark.nvim'
   use { "catppuccin/nvim", as = "catppuccin" }
+
   -- cmp plugins
   use { "hrsh7th/nvim-cmp", commit = "df6734aa018d6feb4d76ba6bda94b1aeac2b378a" } -- The completion plugin
   use { "hrsh7th/cmp-buffer", commit = "62fc67a2b0205136bc3e312664624ba2ab4a9323" } -- buffer completions
