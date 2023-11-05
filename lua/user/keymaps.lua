@@ -81,10 +81,10 @@ keymap("v","q", "<Nop>")
 -- keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- Telescope
-keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
-keymap("n", "<leader>fs", ":Telescope live_grep<CR>", opts)
-keymap("n", "<leader>fh", ":Telescope help_tags<CR>", opts)
-keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
+-- keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
+-- keymap("n", "<leader>fs", ":Telescope live_grep<CR>", opts)
+-- keymap("n", "<leader>fh", ":Telescope help_tags<CR>", opts)
+-- keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
 
 -- Git
 -- keymap("n", "<lea.er>gg", "<cmd>lu. _LAZYGIT_TOGGLE()<CR>", opts)
