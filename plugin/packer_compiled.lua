@@ -164,11 +164,6 @@ _G.packer_plugins = {
     path = "/home/marcus/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["vim-illuminate"] = {
-    loaded = true,
-    path = "/home/marcus/.local/share/nvim/site/pack/packer/start/vim-illuminate",
-    url = "https://github.com/RRethy/vim-illuminate"
-  },
   ["vim-prettier"] = {
     loaded = false,
     needs_bufread = true,
