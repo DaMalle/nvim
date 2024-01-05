@@ -68,10 +68,6 @@ keymap("n", "J", "mzJ`z", opts)
 -- Press jk fast to enter
 keymap("i", "jk", "<ESC>", opts)
 
--- add line on top
-keymap("n", "oo", "m`o<ESC>``", opts)
-keymap("n", "OO", "m`O<ESC>``", opts)
-
 -- disable record-mode
 keymap("n","q", "<Nop>")
 keymap("v","q", "<Nop>")
