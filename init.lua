@@ -1,9 +1,4 @@
-require "marcus.options"
-require "marcus.plugins"
-require "marcus.keymaps"
-require "marcus.autocommands"
-require "marcus.colorscheme"
-require "marcus.cmp"
-require "marcus.treesitter"
-require "marcus.comment"
-require "marcus.lsp"
+require("config.lazy")
+require("config.options")
+require("config.keymaps")
+require("config.autocommands")

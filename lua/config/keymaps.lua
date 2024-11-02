@@ -39,11 +39,11 @@ local ui = require("harpoon.ui")
 keymap("n", "<leader>a", function() mark.add_file() end)
 keymap("n", "<C-e>", ui.toggle_quick_menu)
 
-keymap("n", "<C-1>", function() ui.nav_file(1) end)
-keymap("n", "<C-2>", function() ui.nav_file(2) end)
-keymap("n", "<C-3>", function() ui.nav_file(3) end)
-keymap("n", "<C-4>", function() ui.nav_file(4) end)
-keymap("n", "<C-5>", function() ui.nav_file(5) end)
+--keymap("n", "<C-1>", function() ui.nav_file(1) end)
+--keymap("n", "<C-2>", function() ui.nav_file(2) end)
+--keymap("n", "<C-3>", function() ui.nav_file(3) end)
+--keymap("n", "<C-4>", function() ui.nav_file(4) end)
+--keymap("n", "<C-5>", function() ui.nav_file(5) end)
 
 -- Clear highlights
 keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
@@ -76,17 +76,8 @@ keymap("v","q", "<Nop>")
 -- NvimTree
 -- keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
--- Telescope
--- keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
--- keymap("n", "<leader>fs", ":Telescope live_grep<CR>", opts)
--- keymap("n", "<leader>fh", ":Telescope help_tags<CR>", opts)
--- keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
-
--- Git
--- keymap("n", "<lea.er>gg", "<cmd>lu. _LAZYGIT_TOGGLE()<CR>", opts)
-
 -- Comment
-keymap("n", "<leader>.", "<cmd>lua require('Comment.api').toggle_current_linewise()<CR>", opts)
-keymap("x", "<leader>.", '<ESC><CMD>lua require("Comment.api").toggle_linewise_op(vim.fn.visualmode())<CR>')
+--keymap("n", "<leader>.", "<cmd>lua require('Comment.api').toggle_current_linewise()<CR>", opts)
+--keymap("x", "<leader>.", '<ESC><CMD>lua require("Comment.api").toggle_linewise_op(vim.fn.visualmode())<CR>')
 
 vim.keymap.set("n", "Q", "<nop>")
