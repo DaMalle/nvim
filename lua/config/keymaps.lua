@@ -33,9 +33,16 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
+keymap("n", "<leader>tn", ":tabnext<CR>", opts)  -- Next tab
+keymap("n", "<leader>tp", ":tabprevious<CR>", opts)  -- Previous tab
+keymap("n", "<leader>tc", ":tabclose<CR>", opts)  -- Close tab
+keymap("n", "<leader>to", ":tabnew<CR>", opts)  -- Open new tab
+
 -- Clear highlights
 keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
 
+-- show errors
+keymap("n", "<leader>e", vim.diagnostic.open_float, opts)
 
 -- Better paste
 keymap("v", "p", '"_dP', opts)
