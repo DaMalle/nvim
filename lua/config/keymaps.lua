@@ -67,3 +67,6 @@ keymap("i", "jk", "<ESC>", opts)
 keymap("n","q", "<Nop>")
 keymap("v","q", "<Nop>")
 keymap("n", "Q", "<Nop>")
+
+-- comment
+keymap("n", "<leader>.", "gcc", {remap = true }, opts)
