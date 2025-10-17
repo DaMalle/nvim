@@ -1,5 +1,0 @@
-cmp-buffer
-cmp-cmdline
-cmp-nvim-lsp
-cmp-path
-nvim-cmp
